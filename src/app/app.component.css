@@ -1,43 +1,43 @@
-/* Style the container to center it on the page */
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Ensures the container takes up full viewport height */
-    text-align: center; /* Centers text within the container */
+    min-height: 100vh;
+    text-align: center; 
   }
   
-  /* Increase the font size of the sentence */
+  
   .container p {
-    font-size: 1.5rem; /* Increase the font size */
-    margin-bottom: 1.5rem; /* Add space below the text */
+    font-size: 1.5rem; 
+    margin-bottom: 1.5rem; 
   }
   
-  /* Style the button with padding and other enhancements */
+  
   .container button {
-    padding: 0.75rem 1.5rem; /* Increase padding around the button */
-    font-size: 1rem; /* Set a larger font size for the button text */
-    background-color: #3c8066; /* Button color */
-    color: white; /* Text color */
-    border: none; /* Remove border */
-    border-radius: 0.25rem; /* Slightly round the button edges */
-    cursor: pointer; /* Show pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    padding: 0.75rem 1.5rem; 
+    font-size: 1rem; 
+    background-color: #3c8066; 
+    color: white; 
+    border: none; 
+    border-radius: 0.25rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
   }
   
-  /* Add a hover effect for the button */
+  
   .container button:hover {
-    background-color: #2e5e4b; /* Darken the button color on hover */
+    background-color: #2e5e4b; 
   }
   
-  /* Center the loading text and style it */
+ 
   .loading {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Center the loading text vertically */
-    font-size: 1.5rem; /* Increase the font size of the loading text */
-    color: #3c8066; /* Loading text color */
+    min-height: 100vh; 
+    font-size: 1.5rem; 
+    color: #3c8066; 
   }
   

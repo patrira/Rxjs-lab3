@@ -20,12 +20,12 @@ export class AppComponent {
     this.result = null;
     this.error = null;
 
-    // Simulate an HTTP request
+    
     of(null)
       .pipe(
         // Simulate network latency
         delay(1000),
-        // Randomly succeed or fail the request
+        
         switchMap(() =>
           Math.random() > 0.5
             ? of('Request succeeded!').pipe(tap(() => console.log('Request succeeded!')))
